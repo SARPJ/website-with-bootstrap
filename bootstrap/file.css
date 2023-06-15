@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-bg {
+  background-color: rgb(211, 116, 226) !important;
+}
+
+.btn-bg {
+  color: whitesmoke !important;
+  border-color: 2px solid whitesmoke;
+}
+
+.carousel-item::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+.carousel-item h5 {
+  font-size: 50px;
+  background-image: linear-gradient(crimson, bisque, powderblue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(212, 139, 214);
+}
+/* .card {
+  margin: 44px;
+} */
+.services-container {
+  background-color: rgb(212, 139, 214);
+  margin-bottom: -18px;
+  text-align: center;
+  color: white;
+}
+.contact-container > .row {
+  background: #585557;
+
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+.contact-container > .row > .col-lg-12 {
+  height: 450px;
+  position: relative;
+}
+.contact-container .map::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    black 20%,
+    transparent,
+    transparent
+  );
+}
+.contact-container .map-form {
+  height: 60%;
+  width: 30%;
+  position: absolute;
+  top: 0px;
+}
+/* .contact-container > .row > .col > form {
+  height: 100%;
+  background: white;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+.contact-container > .row > .col > form > h3 {
+  padding: 20px 0;
+} */
